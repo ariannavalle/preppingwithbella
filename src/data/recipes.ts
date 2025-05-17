@@ -25,8 +25,15 @@ interface Recipe {
     servings: string;
 }
 
+interface RecipeListItem {
+    id: string;
+    title: string;
+    image: string;
+    description: string;
+}
+
 // this determines the order
-export const recipeList = [
+export const recipeList: RecipeListItem[] = [
     {
         id: 'tuscan-chicken',
         title: 'Creamy Tuscan Chicken',
@@ -51,7 +58,6 @@ export const recipeList = [
         image: layeredDipImg,
         description: 'A delicious layered dip with refried beans, guacamole, sour cream, and more.'
     },
-
     {
         id: 'japchae',
         title: 'Japchae (Korean Glass Noodle Stir Fry)',
@@ -111,9 +117,7 @@ export const recipeList = [
         title: 'Homemade Marinara Sauce',
         image: marinaraImg,
         description: 'Classic Italian marinara sauce made with San Marzano tomatoes.'
-    },
-
-
+    }
 ];
 
 export const recipes: { [key: string]: Recipe } = {
@@ -156,11 +160,11 @@ export const recipes: { [key: string]: Recipe } = {
         image: chickenSouffleImg,
         description: 'A delicious and moist chicken soufflé with a savory vegetable base.',
         ingredients: [
-            '5 chicken breasts',
+            '3 chicken breasts',
             '6 eggs',
             '1 cup crushed saltine crackers',
             '1 can of heavy cream (or table cream)',
-            '5 tablespoons grated cheese',
+            '1/3 cup grated cheese',
             '½ onion, finely chopped',
             '1 ripe tomato, chopped',
             'A small amount of bell pepper, chopped',
@@ -168,7 +172,7 @@ export const recipes: { [key: string]: Recipe } = {
             'A pinch of thyme',
             'Salt to taste',
             'Pepper and cumin to taste',
-            'Mustard to taste'
+            '1 Tbsp mustard'
         ],
         instructions: [
             'Make the sautéed base: in a pan, sauté the chopped onion, tomato, and bell pepper.',
@@ -351,7 +355,7 @@ export const recipes: { [key: string]: Recipe } = {
     'cocktail-meatballs': {
         id: 'cocktail-meatballs',
         title: 'Cocktail Meatballs',
-        image: 'https://cafedelites.com/wp-content/uploads/2018/12/Cocktail-Meatballs-IMAGE-1.jpg',
+        image: meatballsImg,
         description: 'Perfect party appetizer with sweet and tangy sauce.',
         ingredients: [
             '1 lb ground beef',
@@ -382,7 +386,7 @@ export const recipes: { [key: string]: Recipe } = {
     'meatloaf': {
         id: 'meatloaf',
         title: 'Classic Meatloaf',
-        image: 'https://www.thewholesomedish.com/wp-content/uploads/2019/02/The-Best-Classic-Meatloaf-550-500x375.jpg',
+        image: meatloafImg,
         description: 'The best classic meatloaf recipe with a sweet glaze.',
         ingredients: [
             '2 lbs ground beef',
@@ -419,7 +423,7 @@ export const recipes: { [key: string]: Recipe } = {
     'seven-layer-dip': {
         id: 'seven-layer-dip',
         title: 'Six Layer Dip',
-        image: 'https://www.allrecipes.com/thmb/1Hx7J6yT4Unw79zF8mfnZO1uQ8M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23176-seven-layer-dip-ii-1x1-1-2000-9a9b0c8c0c1c4c1c8c0c1c4c1c8c0c1c.jpg',
+        image: layeredDipImg,
         description: 'A delicious layered dip with refried beans, guacamole, sour cream, and more.',
         ingredients: [
             '1 (16 ounce) can refried beans',
@@ -447,7 +451,7 @@ export const recipes: { [key: string]: Recipe } = {
     'mexican-picadillo': {
         id: 'mexican-picadillo',
         title: 'Mexican Picadillo',
-        image: 'https://www.chilipeppermadness.com/wp-content/uploads/2020/09/Mexican-Picadillo-Recipe.jpg',
+        image: picadilloImg,
         description: 'Traditional Mexican ground beef dish with potatoes, carrots, and raisins.',
         ingredients: [
             '1 pound ground beef',
@@ -480,7 +484,7 @@ export const recipes: { [key: string]: Recipe } = {
     'instant-pot-beef-stew': {
         id: 'instant-pot-beef-stew',
         title: 'Instant Pot Beef Stew',
-        image: 'https://www.wellplated.com/wp-content/uploads/2018/01/Instant-Pot-Beef-Stew-Recipe.jpg',
+        image: beefStewImg,
         description: 'Hearty beef stew made quickly in the Instant Pot with tender meat and vegetables.',
         ingredients: [
             '2 pounds beef chuck, cut into 1-inch cubes',
@@ -513,7 +517,7 @@ export const recipes: { [key: string]: Recipe } = {
     'tallarines-verdes': {
         id: 'tallarines-verdes',
         title: 'Tallarines Verdes con Lomo',
-        image: 'https://buenazo.cronosmedia.glr.pe/original/2021/11/19/6197c8c3c2c6c0001c3c6c2c.jpg',
+        image: tallarinesVerdesImg,
         description: 'Peruvian green pasta with tender beef, made with a creamy basil sauce.',
         ingredients: [
             '1 pound fettuccine pasta',

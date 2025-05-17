@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useLanguage } from '../context/LanguageContext';
 import '../styles/RecipeCard.css';
 
 interface RecipeCardProps {
@@ -10,8 +11,10 @@ interface RecipeCardProps {
 }
 
 const RecipeCard: React.FC<RecipeCardProps> = ({ id, title, image, description }) => {
+  const { language } = useLanguage();
+  const to = language === 'es' ? `/es/recipe/${id}` : `/recipe/${id}`;
   return (
-    <Link to={`/recipe/${id}`} className="recipe-card">
+    <Link to={to} className="recipe-card">
       <div className="recipe-card-image">
         <img src={image} alt={title} />
       </div>

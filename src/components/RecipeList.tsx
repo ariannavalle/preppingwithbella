@@ -2,7 +2,9 @@ import React from 'react';
 import Masonry from 'react-masonry-css';
 import RecipeCard from './RecipeCard';
 import '../styles/RecipeList.css';
-import {recipeList} from "../data/recipes.ts";
+import { recipeList } from "../data/recipes.ts";
+import { recipeTranslations } from "../data/translations";
+import { useLanguage } from '../context/LanguageContext';
 
 const breakpointColumnsObj = {
   default: 3,
@@ -11,6 +13,8 @@ const breakpointColumnsObj = {
 };
 
 const RecipeList: React.FC = () => {
+  const { language } = useLanguage();
+
   return (
     <div className="recipe-list">
       <Masonry
@@ -22,9 +26,9 @@ const RecipeList: React.FC = () => {
           <RecipeCard
             key={recipe.id}
             id={recipe.id}
-            title={recipe.title}
+            title={recipeTranslations[recipe.id]?.title[language] || recipe.title}
             image={recipe.image}
-            description={recipe.description}
+            description={recipeTranslations[recipe.id]?.description[language] || recipe.description}
           />
         ))}
       </Masonry>
