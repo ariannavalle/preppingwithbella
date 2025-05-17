@@ -25,6 +25,7 @@ interface Recipe {
     servings: string;
 }
 
+// this determines the order
 export const recipeList = [
     {
         id: 'tuscan-chicken',
@@ -49,6 +50,12 @@ export const recipeList = [
         title: 'Six Layer Dip',
         image: layeredDipImg,
         description: 'A delicious layered dip with refried beans, guacamole, sour cream, and more.'
+    },
+    {
+        id: 'chicken-souffle',
+        title: 'Chicken Soufflé de Luz',
+        image: chickenSouffleImg,
+        description: 'A delicious and moist chicken soufflé with a savory vegetable base.'
     },
     {
         id: 'japchae',
@@ -104,12 +111,7 @@ export const recipeList = [
         image: marinaraImg,
         description: 'Classic Italian marinara sauce made with San Marzano tomatoes.'
     },
-    {
-        id: 'chicken-souffle',
-        title: 'Chicken Soufflé',
-        image: 'https://www.allrecipes.com/thmb/1Hx7J6yT4Unw79zF8mfnZO1uQ8M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23176-seven-layer-dip-ii-1x1-1-2000-9a9b0c8c0c1c4c1c8c0c1c4c1c8c0c1c.jpg',
-        description: 'A delicious and moist chicken soufflé with a savory vegetable base.'
-    }
+
 ];
 
 export const recipes: { [key: string]: Recipe } = {
@@ -145,6 +147,46 @@ export const recipes: { [key: string]: Recipe } = {
         prepTime: '10 minutes',
         cookTime: '20 minutes',
         servings: '10 servings'
+    },
+    'chicken-souffle': {
+        id: 'chicken-souffle',
+        title: 'Chicken Soufflé de Luz',
+        image: chickenSouffleImg,
+        description: 'A delicious and moist chicken soufflé with a savory vegetable base.',
+        ingredients: [
+            '5 chicken breasts',
+            '6 eggs',
+            '1 cup crushed saltine crackers',
+            '1 can of heavy cream (or table cream)',
+            '5 tablespoons grated cheese',
+            '½ onion, finely chopped',
+            '1 ripe tomato, chopped',
+            'A small amount of bell pepper, chopped',
+            '1 bay leaf',
+            'A pinch of thyme',
+            'Salt to taste',
+            'Pepper and cumin to taste',
+            'Mustard to taste'
+        ],
+        instructions: [
+            'Make the sautéed base: in a pan, sauté the chopped onion, tomato, and bell pepper.',
+            'Add the bay leaf, thyme, salt, pepper, and a pinch of cumin.',
+            'Cook until the vegetables are soft and fragrant.',
+            'Cook the chicken: Add the chicken breasts to the pan with the sautéed mixture.',
+            'Cover and cook for about 15 minutes, or until fully cooked.',
+            'Remove the chicken, let it cool slightly, and shred it finely.',
+            'Save the cooking mixture (don\'t discard it).',
+            'Prepare the soufflé mixture: In a large bowl, combine the shredded chicken, crushed saltines, beaten' +
+            ' eggs (as if for scrambled eggs), heavy cream, and the reserved sautéed mixture.',
+            'Add mustard and grated cheese. Mix everything thoroughly until well combined and moist. If the mixture feels dry, add a bit more cream or some of the reserved cooking liquid.',
+            'Bake: Preheat the oven to 350°F (180°C).',
+            'Pour the mixture into a greased baking dish.',
+            'Bake for 30 to 40 minutes, or until the top is golden and the center is set.',
+            'Make sure it stays moist—it should have a juicy, almost "saucy" texture.'
+        ],
+        prepTime: '30 minutes',
+        cookTime: '55 minutes',
+        servings: '6 servings'
     },
     'classic-chili': {
         id: 'classic-chili',
@@ -526,44 +568,4 @@ export const recipes: { [key: string]: Recipe } = {
         cookTime: '30 minutes',
         servings: '6 servings'
     },
-    'chicken-souffle': {
-        id: 'chicken-souffle',
-        title: 'Chicken Soufflé de Luz',
-        image: chickenSouffleImg,
-        description: 'A delicious and moist chicken soufflé with a savory vegetable base.',
-        ingredients: [
-            '5 chicken breasts',
-            '6 eggs',
-            '1 cup crushed saltine crackers',
-            '1 can of heavy cream (or table cream)',
-            '5 tablespoons grated cheese',
-            '½ onion, finely chopped',
-            '1 ripe tomato, chopped',
-            'A small amount of bell pepper, chopped',
-            '1 bay leaf',
-            'A pinch of thyme',
-            'Salt to taste',
-            'Pepper and cumin to taste',
-            'Mustard to taste'
-        ],
-        instructions: [
-            'Make the sautéed base: in a pan, sauté the chopped onion, tomato, and bell pepper.',
-            'Add the bay leaf, thyme, salt, pepper, and a pinch of cumin.',
-            'Cook until the vegetables are soft and fragrant.',
-            'Cook the chicken: Add the chicken breasts to the pan with the sautéed mixture.',
-            'Cover and cook for about 15 minutes, or until fully cooked.',
-            'Remove the chicken, let it cool slightly, and shred it finely.',
-            'Save the cooking mixture (don\'t discard it).',
-            'Prepare the soufflé mixture: In a large bowl, combine the shredded chicken, crushed saltines, beaten' +
-            ' eggs (as if for scrambled eggs), heavy cream, and the reserved sautéed mixture.',
-            'Add mustard and grated cheese. Mix everything thoroughly until well combined and moist. If the mixture feels dry, add a bit more cream or some of the reserved cooking liquid.',
-            'Bake: Preheat the oven to 350°F (180°C).',
-            'Pour the mixture into a greased baking dish.',
-            'Bake for 30 to 40 minutes, or until the top is golden and the center is set.',
-            'Make sure it stays moist—it should have a juicy, almost "saucy" texture.'
-        ],
-        prepTime: '30 minutes',
-        cookTime: '55 minutes',
-        servings: '6 servings'
-    }
 };
