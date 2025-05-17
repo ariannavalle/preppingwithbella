@@ -51,12 +51,7 @@ export const recipeList = [
         image: layeredDipImg,
         description: 'A delicious layered dip with refried beans, guacamole, sour cream, and more.'
     },
-    {
-        id: 'chicken-souffle',
-        title: 'Chicken Soufflé de Luz',
-        image: chickenSouffleImg,
-        description: 'A delicious and moist chicken soufflé with a savory vegetable base.'
-    },
+
     {
         id: 'japchae',
         title: 'Japchae (Korean Glass Noodle Stir Fry)',
@@ -80,6 +75,12 @@ export const recipeList = [
         title: 'Cocktail Meatballs',
         image: meatballsImg,
         description: 'Perfect party appetizer with sweet and tangy sauce.'
+    },
+    {
+        id: 'chicken-souffle',
+        title: 'Chicken Soufflé',
+        image: chickenSouffleImg,
+        description: 'A delicious and moist chicken soufflé with a savory vegetable base.'
     },
     {
         id: 'meatloaf',
@@ -111,6 +112,7 @@ export const recipeList = [
         image: marinaraImg,
         description: 'Classic Italian marinara sauce made with San Marzano tomatoes.'
     },
+
 
 ];
 
