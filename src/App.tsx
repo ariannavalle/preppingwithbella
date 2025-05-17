@@ -1,16 +1,18 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import RecipeList from './components/RecipeList';
 import RecipeDetail from './components/RecipeDetail';
 import tallarinesVerdes from './assets/tallarines-verdes.jpg';
 import tuscanChicken from './assets/tuscan-chicken.jpg';
 import './App.css';
 
-const App: React.FC = () => {
-  return (
-    <Router>
-      <div className="app">
+const AppContent: React.FC = () => {
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
 
+  return (
+    <div className="app">
+      {isHomePage && (
         <div className="banner">
           <div className="banner-image-wrapper">
             <img src={tuscanChicken} alt="Meal Prep Food" className="banner-image" />
@@ -22,14 +24,22 @@ const App: React.FC = () => {
             </p>
           </div>
         </div>
+      )}
 
-        <main className="main-content">
-          <Routes>
-            <Route path="/" element={<RecipeList />} />
-            <Route path="/recipe/:id" element={<RecipeDetail />} />
-          </Routes>
-        </main>
-      </div>
+      <main className="main-content">
+        <Routes>
+          <Route path="/" element={<RecipeList />} />
+          <Route path="/recipe/:id" element={<RecipeDetail />} />
+        </Routes>
+      </main>
+    </div>
+  );
+};
+
+const App: React.FC = () => {
+  return (
+    <Router>
+      <AppContent />
     </Router>
   );
 };

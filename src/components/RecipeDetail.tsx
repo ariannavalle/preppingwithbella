@@ -1,10 +1,11 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import '../styles/RecipeDetail.css';
 import {recipes} from "../data/recipes.ts";
 
 const RecipeDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate();
   const recipe = recipes[id || ''];
 
   if (!recipe) {
@@ -13,9 +14,13 @@ const RecipeDetail: React.FC = () => {
 
   return (
     <div className="recipe-detail">
+      <button className="back-button" onClick={() => navigate(-1)}>
+        ← Back to Recipes
+      </button>
+      
       <div className="recipe-header">
         <h1>{recipe.title}</h1>
-        {/*<img src={recipe.image} alt={recipe.title} />*/}
+        <img src={recipe.image} alt={recipe.title} />
       </div>
       
       <div className="recipe-info">
