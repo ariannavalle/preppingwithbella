@@ -1,8 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import RecipeList from './components/RecipeList';
 import RecipeDetail from './components/RecipeDetail';
-import tallarinesVerdes from './assets/tallarines-verdes.jpg';
 import tuscanChicken from './assets/tuscan-chicken.jpg';
 import './App.css';
 
