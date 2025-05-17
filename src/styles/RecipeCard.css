@@ -1,0 +1,64 @@
+.recipe-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: #fff;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 6px 24px rgba(161, 106, 232, 0.10);
+  border: 2px solid #f7eaff;
+  transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  break-inside: avoid;
+}
+
+.recipe-card:hover {
+  transform: translateY(-8px) scale(1.025);
+  box-shadow: 0 12px 32px rgba(161, 106, 232, 0.18);
+  border-color: #e6c7f7;
+}
+
+.recipe-card-image {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1.5px solid #f7eaff;
+  display: flex;
+  align-items: stretch;
+  max-height: 500px;
+}
+
+.recipe-card-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s;
+  border-radius: 0;
+  display: block;
+}
+
+.recipe-card:hover .recipe-card-image img {
+  transform: scale(1.06) rotate(-1deg);
+}
+
+.recipe-card-content {
+  padding: 1.7rem 1.2rem 0.7rem 1.2rem;
+}
+
+.recipe-card-content h2 {
+  margin: 0 0 0.6rem 0;
+  font-size: 1.35rem;
+  color: #a16ae8;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.recipe-card-content p {
+  margin: 0;
+  color: #6d6d6d;
+  font-size: 1.02rem;
+  line-height: 1.5;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+} 

@@ -1,0 +1,51 @@
+.recipe-list {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.recipe-list h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.recipe-masonry-grid {
+  display: flex;
+  margin-left: -2rem; /* gutter size offset */
+  width: auto;
+}
+
+.recipe-masonry-grid_column {
+  padding-left: 2rem; /* gutter size */
+  background-clip: padding-box;
+}
+
+.recipe-card {
+  margin-bottom: 2rem;
+  width: 100%;
+  break-inside: avoid;
+}
+
+@media (max-width: 1100px) {
+  .recipe-masonry-grid {
+    margin-left: -1rem;
+  }
+  .recipe-masonry-grid_column {
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .recipe-list {
+    padding: 1rem;
+  }
+  .recipe-masonry-grid {
+    margin-left: 0;
+  }
+  .recipe-masonry-grid_column {
+    padding-left: 0;
+  }
+} 
