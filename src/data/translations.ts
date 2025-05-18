@@ -138,7 +138,7 @@ export const recipeTranslations: Record<string, RecipeTranslation> = {
             ],
             es: [
                 '1 libra de pasta fettuccine',
-                '1 libra de lomo fino, en rodajas',
+                '1 libra de lomo de res, en rodajas',
                 '2 tazas de hojas de albahaca fresca',
                 '1/2 taza de leche evaporada',
                 '1/4 taza de nueces',
@@ -198,7 +198,7 @@ export const recipeTranslations: Record<string, RecipeTranslation> = {
                 '1/2 taza de harina para todo uso',
                 '1 taza de leche entera',
                 '1 1/2 tazas de mitad y mitad',
-                '4 tazas de queso cheddar rallado',
+                '4 tazas de queso cheddar mediano rallado',
                 '2 tazas de queso Gruyere rallado',
                 '1/2 cucharada de sal',
                 '1/2 cucharadita de pimienta negra',
@@ -219,7 +219,7 @@ export const recipeTranslations: Record<string, RecipeTranslation> = {
                 'Bake for 15 minutes, then broil for 3 minutes until top is golden brown.'
             ],
             es: [
-                'Precaliente el horno a 325 grados F y engrase un molde para hornear de 3 cuartos.',
+                'Precaliente el horno a 325 grados F y engrase un molde para hornear de 3 qt.',
                 'Cocine la pasta según las instrucciones del paquete.',
                 'Derrita la mantequilla en una cacerola grande a fuego medio.',
                 'Agregue la harina y bata durante 1 minuto.',
@@ -308,13 +308,13 @@ export const recipeTranslations: Record<string, RecipeTranslation> = {
                 'Salt and pepper to taste'
             ],
             es: [
-                '8 oz de fideos de almidón de batata',
-                '1/2 libra de espinacas',
-                '2 zanahorias, en juliana',
+                '8 oz de fideos de almidón de camote',
+                '1/2 lb de espinacas',
+                '2 zanahorias, cortadas en juliana',
                 '1 cebolla, en rodajas',
                 '4 oz de champiñones, en rodajas',
                 '2 dientes de ajo, picados',
-                '3 cucharadas de salsa de soja',
+                '3 cucharadas de salsa de soya',
                 '2 cucharadas de aceite de sésamo',
                 '1 cucharada de azúcar',
                 '1 cucharada de semillas de sésamo',
@@ -334,10 +334,10 @@ export const recipeTranslations: Record<string, RecipeTranslation> = {
             ],
             es: [
                 'Cocine los fideos según las instrucciones del paquete.',
-                'Escalde las espinacas en agua hirviendo durante 30 segundos, luego enjuague en agua fría.',
+                'Blanquee las espinacas en agua hirviendo durante 30 segundos, luego enjuague en agua fría.',
                 'Exprima el exceso de agua de las espinacas y sazone con sal y aceite de sésamo.',
                 'Saltee las zanahorias, la cebolla y los champiñones por separado con un poco de aceite.',
-                'Mezcle la salsa de soja, el azúcar y el aceite de sésamo en un tazón pequeño.',
+                'Mezcle la salsa de soya, el azúcar y el aceite de sésamo en un tazón pequeño.',
                 'Combine todos los ingredientes en un tazón grande.',
                 'Agregue la mezcla de salsa y revuelva bien.',
                 'Adorne con semillas de sésamo y sirva.'
@@ -365,13 +365,13 @@ export const recipeTranslations: Record<string, RecipeTranslation> = {
                 'Lettuce, tomato, and onion for serving'
             ],
             es: [
-                '1 libra de carne molida (90% magra)',
-                '1 batata, cortada en papas fritas',
+                '1 lb de carne molida (90% magra)',
+                '1 camote, cortado en papas fritas',
                 '1 cucharada de aceite de oliva',
                 '1 cucharadita de paprika',
                 '1 cucharadita de ajo en polvo',
                 'Sal y pimienta al gusto',
-                '4 panecillos integrales',
+                '4 panes integrales',
                 'Lechuga, tomate y cebolla para servir'
             ]
         },
@@ -387,10 +387,10 @@ export const recipeTranslations: Record<string, RecipeTranslation> = {
             ],
             es: [
                 'Precaliente el horno a 425°F.',
-                'Corte la batata en papas fritas y mezcle con aceite de oliva y condimentos.',
+                'Corte el camote en papas fritas y mezcle con aceite de oliva y condimentos.',
                 'Hornee las papas fritas durante 20-25 minutos, volteando a la mitad.',
                 'Forme la carne molida en 4 hamburguesas.',
-                'Cocine las hamburguesas en una sartén a fuego medio durante 4-5 minutos por lado.',
+                'Cocine las hamburguesas en una sartén a fuego medio durante 4-5 minutos por cada lado.',
                 'Armar las hamburguesas con los ingredientes deseados.',
                 'Divida en contenedores de preparación de comidas con las papas fritas.'
             ]
@@ -418,7 +418,7 @@ export const recipeTranslations: Record<string, RecipeTranslation> = {
                 'Salt and pepper to taste'
             ],
             es: [
-                '1 libra de pavo molido',
+                '1 lb de pavo molido',
                 '1/2 taza de pan rallado',
                 '1/4 taza de leche',
                 '1 huevo',
@@ -472,7 +472,7 @@ export const recipeTranslations: Record<string, RecipeTranslation> = {
                 '1 tbsp Worcestershire sauce'
             ],
             es: [
-                '1 libra de carne molida',
+                '1 lb de carne molida',
                 '1/2 taza de pan rallado',
                 '1 huevo',
                 '1/4 taza de leche',
@@ -534,7 +534,7 @@ export const recipeTranslations: Record<string, RecipeTranslation> = {
                 '1 tbsp red wine vinegar'
             ],
             es: [
-                '2 libras de carne molida',
+                '2 lbs de carne molida',
                 '1 cebolla, picada',
                 '2 huevos grandes',
                 '3 dientes de ajo, picados',
@@ -641,11 +641,11 @@ export const recipeTranslations: Record<string, RecipeTranslation> = {
     'instant-pot-beef-stew': {
         title: {
             en: 'Instant Pot Beef Stew',
-            es: 'Estofado de Res en Instant Pot'
+            es: 'Estofado de Res en Olla Instantánea'
         },
         description: {
             en: 'Hearty beef stew made quickly in the Instant Pot with tender meat and vegetables.',
-            es: 'Estofado de res sustancioso hecho rápidamente en la Instant Pot con carne tierna y verduras.'
+            es: 'Estofado de res sustancioso hecho rápidamente en la Olla Instantánea con carne tierna y verduras.'
         },
         ingredients: {
             en: [
@@ -663,7 +663,7 @@ export const recipeTranslations: Record<string, RecipeTranslation> = {
                 '2 tablespoons olive oil'
             ],
             es: [
-                '2 libras de carne de res, cortada en cubos de 1 pulgada',
+                '2 libras de carne de res chuck, cortada en cubos de 1 pulgada',
                 '1 cebolla, picada',
                 '4 zanahorias, cortadas en trozos',
                 '4 papas, cortadas en trozos',
@@ -689,7 +689,7 @@ export const recipeTranslations: Record<string, RecipeTranslation> = {
                 'Remove bay leaves and season to taste.'
             ],
             es: [
-                'Configure la Instant Pot en modo saltear y caliente el aceite de oliva.',
+                'Configure la Olla Instantánea en modo saltear y caliente el aceite de oliva.',
                 'Dore los cubos de carne en lotes, luego retire.',
                 'Saltee la cebolla y el ajo hasta que estén suaves.',
                 'Agregue la pasta de tomate y cocine durante 1 minuto.',
@@ -752,7 +752,7 @@ export const recipeTranslations: Record<string, RecipeTranslation> = {
                 'Agregue la albahaca, el orégano y las hojuelas de pimiento rojo.',
                 'Cocine a fuego lento durante 30 minutos, revolviendo ocasionalmente.',
                 'Sazone con sal y pimienta.',
-                'Agregue azúcar si es necesario para equilibrar la acidez.'
+                'Agregue azúcar si es necesario para balancear la acidez.'
             ]
         }
     },
@@ -767,112 +767,136 @@ export const recipeTranslations: Record<string, RecipeTranslation> = {
         },
         ingredients: {
             en: [
-                '2 pounds ground beef',
-                '1 onion, diced',
-                '2 cloves garlic, minced',
-                '2 (15 ounce) cans kidney beans, drained',
-                '2 (15 ounce) cans diced tomatoes',
-                '2 tablespoons chili powder',
-                '1 tablespoon cumin',
-                '1 teaspoon paprika',
-                '1 teaspoon oregano',
-                'Salt and pepper to taste',
-                '2 tablespoons olive oil'
+                '1 tablespoon olive oil',
+                '1 medium yellow onion, diced',
+                '3 pounds ground turkey or beef',
+                '2 1/2 tablespoons chili powder',
+                '2 tablespoons ground cumin',
+                '2 tablespoons granulated sugar',
+                '2 tablespoons tomato paste',
+                '1 tablespoon garlic powder',
+                '1 1/2 teaspoons salt',
+                '1/2 teaspoon ground black pepper',
+                '1/4 teaspoon ground cayenne pepper',
+                '1 1/2 cups beef broth',
+                '1 (15 oz.) can petite diced tomatoes',
+                '1 (16 oz.) can red kidney beans, drained and rinsed',
+                '1 (8 oz.) can tomato sauce'
             ],
             es: [
-                '2 libras de carne molida',
-                '1 cebolla, picada',
-                '2 dientes de ajo, picados',
-                '2 latas (15 onzas) de frijoles rojos, escurridos',
-                '2 latas (15 onzas) de tomates en cubos',
-                '2 cucharadas de chile en polvo',
-                '1 cucharada de comino',
-                '1 cucharadita de paprika',
-                '1 cucharadita de orégano',
-                'Sal y pimienta al gusto',
-                '2 cucharadas de aceite de oliva'
+                '1 cucharada de aceite de oliva',
+                '1 cebolla amarilla mediana, picada',
+                '3 libras de pavo molido o carne de res',
+                '2 1/2 cucharadas de chile en polvo',
+                '2 cucharadas de comino molido',
+                '2 cucharadas de azúcar granulada',
+                '2 cucharadas de pasta de tomate',
+                '1 cucharada de ajo en polvo',
+                '1 1/2 cucharaditas de sal',
+                '1/2 cucharadita de pimienta negra molida',
+                '1/4 cucharadita de pimienta de cayena molida',
+                '1 1/2 tazas de caldo de res',
+                '1 lata (15 oz.) de tomates en cubos pequeños',
+                '1 lata (16 oz.) de frijoles rojos, escurridos y enjuagados',
+                '1 lata (8 oz.) de salsa de tomate'
             ]
         },
         instructions: {
             en: [
-                'Heat olive oil in a large pot over medium heat.',
-                'Add onion and garlic, cook until softened.',
-                'Add ground beef and cook until browned.',
-                'Add chili powder, cumin, paprika, and oregano.',
-                'Stir in diced tomatoes and kidney beans.',
-                'Bring to a boil, then reduce heat and simmer for 30 minutes.',
-                'Season with salt and pepper to taste.',
-                'Serve hot with your favorite toppings.'
+                'Add the olive oil to a large soup pot and place it over medium-high heat for 2 minutes.',
+                'Add the onion and cook for 5 minutes, stirring occasionally.',
+                'Add the ground turkey/beef to the pot and break it apart with a wooden spoon.',
+                'Add the chili powder, cumin, sugar, tomato paste, garlic powder, salt, pepper, and cayenne.',
+                'Stir well and cook for 6-7 minutes until the beef is browned.',
+                'Add the broth, diced tomatoes, kidney beans, and tomato sauce.',
+                'Stir well and bring to a boil.',
+                'Reduce the heat to low and simmer for 20-25 minutes, stirring occasionally.',
+                'Remove from heat and let the chili rest for 5-10 minutes before serving.'
             ],
             es: [
-                'Caliente el aceite de oliva en una olla grande a fuego medio.',
-                'Agregue la cebolla y el ajo, cocine hasta que estén suaves.',
-                'Agregue la carne molida y cocine hasta que esté dorada.',
-                'Agregue el chile en polvo, el comino, la paprika y el orégano.',
-                'Revuelva los tomates en cubos y los frijoles rojos.',
-                'Lleve a ebullición, luego reduzca el fuego y cocine a fuego lento durante 30 minutos.',
-                'Sazone con sal y pimienta al gusto.',
-                'Sirva caliente con sus ingredientes favoritos.'
+                'Agregue el aceite de oliva a una olla grande y colóquela a fuego medio-alto durante 2 minutos.',
+                'Agregue la cebolla y cocine durante 5 minutos, revolviendo ocasionalmente.',
+                'Agregue el pavo molido/carne de res a la olla y desmenúcelo con una cuchara de madera.',
+                'Agregue el chile en polvo, el comino, el azúcar, la pasta de tomate, el ajo en polvo, la sal, la pimienta y la cayena.',
+                'Revuelva bien y cocine durante 6-7 minutos hasta que la carne esté dorada.',
+                'Agregue el caldo, los tomates en cubos, los frijoles rojos y la salsa de tomate.',
+                'Revuelva bien y lleve a ebullición.',
+                'Reduzca el fuego a bajo y cocine a fuego lento durante 20-25 minutos, revolviendo ocasionalmente.',
+                'Retire del fuego y deje reposar el chili durante 5-10 minutos antes de servir.'
             ]
         }
     },
     'chicken-souffle': {
         title: {
-            en: 'Chicken Soufflé',
-            es: 'Soufflé de Pollo'
+            en: 'Chicken Soufflé de Luz',
+            es: 'Soufflé de Pollo de Luz'
         },
         description: {
-            en: 'A light and fluffy chicken soufflé that\'s perfect for any occasion.',
-            es: 'Un soufflé de pollo ligero y esponjoso perfecto para cualquier ocasión.'
+            en: 'A delicious and moist chicken soufflé with a savory vegetable base.',
+            es: 'Un soufflé de pollo delicioso y húmedo con una base de verduras sabrosa.'
         },
         ingredients: {
             en: [
-                '4 chicken breasts, cooked and shredded',
-                '4 eggs, separated',
-                '1 cup milk',
-                '1/4 cup butter',
-                '1/4 cup flour',
-                '1 cup cheese, grated',
-                '1/4 teaspoon salt',
-                '1/4 teaspoon pepper',
-                '1/4 teaspoon nutmeg'
+                '5 chicken breasts',
+                '6 eggs',
+                '1 cup crushed saltine crackers',
+                '1 can of heavy cream (or table cream)',
+                '5 tablespoons grated cheese',
+                '½ onion, finely chopped',
+                '1 ripe tomato, chopped',
+                'A small amount of bell pepper, chopped',
+                '1 bay leaf',
+                'A pinch of thyme',
+                'Salt to taste',
+                'Pepper and cumin to taste',
+                'Mustard to taste'
             ],
             es: [
-                '4 pechugas de pollo, cocidas y desmenuzadas',
-                '4 huevos, separados',
-                '1 taza de leche',
-                '1/4 taza de mantequilla',
-                '1/4 taza de harina',
-                '1 taza de queso, rallado',
-                '1/4 cucharadita de sal',
-                '1/4 cucharadita de pimienta',
-                '1/4 cucharadita de nuez moscada'
+                '5 pechugas de pollo',
+                '6 huevos',
+                '1 taza de galletas saladas trituradas',
+                '1 lata de crema espesa (o crema de mesa)',
+                '5 cucharadas de queso rallado',
+                '½ cebolla, finamente picada',
+                '1 tomate maduro, picado',
+                'Una pequeña cantidad de pimiento, picado',
+                '1 hoja de laurel',
+                'Una pizca de tomillo',
+                'Sal al gusto',
+                'Pimienta y comino al gusto',
+                'Mostaza al gusto'
             ]
         },
         instructions: {
             en: [
-                'Preheat oven to 375°F (190°C).',
-                'Melt butter in a saucepan over medium heat.',
-                'Add flour and stir until smooth.',
-                'Gradually add milk, stirring constantly until thickened.',
-                'Remove from heat and add cheese, stirring until melted.',
-                'Beat egg yolks and add to the mixture.',
-                'Add shredded chicken and seasonings.',
-                'Beat egg whites until stiff peaks form.',
-                'Fold egg whites into the chicken mixture.',
-                'Pour into a greased soufflé dish and bake for 30-35 minutes.'
+                'Make the sautéed base: in a pan, sauté the chopped onion, tomato, and bell pepper.',
+                'Add the bay leaf, thyme, salt, pepper, and a pinch of cumin.',
+                'Cook until the vegetables are soft and fragrant.',
+                'Cook the chicken: Add the chicken breasts to the pan with the sautéed mixture.',
+                'Cover and cook for about 15 minutes, or until fully cooked.',
+                'Remove the chicken, let it cool slightly, and shred it finely.',
+                'Save the cooking mixture (don\'t discard it).',
+                'Prepare the soufflé mixture: In a large bowl, combine the shredded chicken, crushed saltines, beaten eggs (as if for scrambled eggs), heavy cream, and the reserved sautéed mixture.',
+                'Add mustard and grated cheese. Mix everything thoroughly until well combined and moist. If the mixture feels dry, add a bit more cream or some of the reserved cooking liquid.',
+                'Bake: Preheat the oven to 350°F (180°C).',
+                'Pour the mixture into a greased baking dish.',
+                'Bake for 30 to 40 minutes, or until the top is golden and the center is set.',
+                'Make sure it stays moist—it should have a juicy, almost "saucy" texture.'
             ],
             es: [
-                'Precaliente el horno a 375°F (190°C).',
-                'Derrita la mantequilla en una cacerola a fuego medio.',
-                'Agregue la harina y revuelva hasta que quede suave.',
-                'Agregue gradualmente la leche, revolviendo constantemente hasta que espese.',
-                'Retire del fuego y agregue el queso, revolviendo hasta que se derrita.',
-                'Bata las yemas de huevo y agregue a la mezcla.',
-                'Agregue el pollo desmenuzado y los condimentos.',
-                'Bata las claras de huevo hasta que formen picos firmes.',
-                'Incorpore las claras de huevo a la mezcla de pollo.',
-                'Vierta en un molde para soufflé engrasado y hornee durante 30-35 minutos.'
+                'Prepare la base salteada: en una sartén, saltee la cebolla picada, el tomate y el pimiento.',
+                'Agregue la hoja de laurel, el tomillo, la sal, la pimienta y una pizca de comino.',
+                'Cocine hasta que las verduras estén suaves y fragantes.',
+                'Cocine el pollo: Agregue las pechugas de pollo a la sartén con la mezcla salteada.',
+                'Cubra y cocine durante unos 15 minutos, o hasta que esté completamente cocido.',
+                'Retire el pollo, déjelo enfriar ligeramente y desmenúcelo finamente.',
+                'Guarde la mezcla de cocción (no la deseche).',
+                'Prepare la mezcla del soufflé: En un tazón grande, combine el pollo desmenuzado, las galletas saladas trituradas, los huevos batidos (como para huevos revueltos), la crema espesa y la mezcla salteada reservada.',
+                'Agregue la mostaza y el queso rallado. Mezcle todo bien hasta que esté bien combinado y húmedo. Si la mezcla se siente seca, agregue un poco más de crema o un poco del líquido de cocción reservado.',
+                'Hornee: Precaliente el horno a 350°F (180°C).',
+                'Vierta la mezcla en un molde para hornear engrasado.',
+                'Hornee durante 30 a 40 minutos, o hasta que la parte superior esté dorada y el centro esté firme.',
+                'Asegúrese de que se mantenga húmedo—debe tener una textura jugosa, casi "salsosa".'
             ]
         }
     },
