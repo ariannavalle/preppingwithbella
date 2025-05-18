@@ -11,7 +11,7 @@ import picadilloImg from "../assets/picadillo.jpg";
 import beefStewImg from "../assets/beef-stew.jpg";
 import tallarinesVerdesImg from "../assets/tallarines-verdes.jpg";
 import marinaraImg from "../assets/marinara.jpg";
-import chickenSouffleImg from "../assets/chicken-souffle.jpg";
+import chickenSouffleImg from "../assets/chicken-souffle.JPEG";
 import { recipeTranslations } from './translations';
 
 interface Recipe {
