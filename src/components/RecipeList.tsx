@@ -27,7 +27,7 @@ const RecipeList: React.FC = () => {
             key={recipe.id}
             id={recipe.id}
             title={recipeTranslations[recipe.id]?.title[language] || recipe.title}
-            image={recipe.image}
+            images={recipe.images}
             description={recipeTranslations[recipe.id]?.description[language] || recipe.description}
           />
         ))}

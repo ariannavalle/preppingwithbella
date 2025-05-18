@@ -6,17 +6,17 @@ import '../styles/RecipeCard.css';
 interface RecipeCardProps {
   id: string;
   title: string;
-  image: string;
+  images: string[];
   description: string;
 }
 
-const RecipeCard: React.FC<RecipeCardProps> = ({ id, title, image, description }) => {
+const RecipeCard: React.FC<RecipeCardProps> = ({ id, title, images, description }) => {
   const { language } = useLanguage();
   const to = language === 'es' ? `/es/recipe/${id}` : `/recipe/${id}`;
   return (
     <Link to={to} className="recipe-card">
       <div className="recipe-card-image">
-        <img src={image} alt={title} />
+        <img src={images[0]} alt={title} />
       </div>
       <div className="recipe-card-content">
         <h2>{title}</h2>

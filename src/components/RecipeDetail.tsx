@@ -29,7 +29,7 @@ const RecipeDetail: React.FC = () => {
       
       <div className="recipe-header">
         <h1>{translatedTitle}</h1>
-        <img src={recipe.image} alt={translatedTitle} />
+        <img src={recipe.images[0]} alt={translatedTitle} />
       </div>
       
       <div className="recipe-info">
