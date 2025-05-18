@@ -11,7 +11,12 @@ import picadilloImg from "../assets/picadillo.jpg";
 import beefStewImg from "../assets/beef-stew.jpg";
 import tallarinesVerdesImg from "../assets/tallarines-verdes.jpg";
 import marinaraImg from "../assets/marinara.jpg";
-import chickenSouffleImg from "../assets/chicken-souffle.JPEG";
+import chickenSouffle1 from "../assets/chicken-souffle-1.JPEG";
+import chickenSouffle2 from "../assets/chicken-souffle-2.JPEG";
+import chickenSouffle3 from "../assets/chicken-souffle-3.JPEG";
+import chickenSouffle4 from "../assets/chicken-souffle-4.JPEG";
+import chickenSouffle5 from "../assets/chicken-souffle-5.JPEG";
+import chickenSouffle6 from "../assets/chicken-souffle-6.JPEG";
 import { recipeTranslations } from './translations';
 
 interface Recipe {
@@ -86,7 +91,7 @@ export const recipeList: RecipeListItem[] = [
     {
         id: 'chicken-souffle',
         title: recipeTranslations['chicken-souffle'].title.en,
-        images: [chickenSouffleImg],
+        images: [chickenSouffle1],
         description: recipeTranslations['chicken-souffle'].description.en
     },
     {
@@ -136,7 +141,7 @@ export const recipes: { [key: string]: Recipe } = {
     'chicken-souffle': {
         id: 'chicken-souffle',
         title: recipeTranslations['chicken-souffle'].title.en,
-        images: [chickenSouffleImg],
+        images: [chickenSouffle1, chickenSouffle2,chickenSouffle3,chickenSouffle4,chickenSouffle5,chickenSouffle6],
         description: recipeTranslations['chicken-souffle'].description.en,
         ingredients: recipeTranslations['chicken-souffle'].ingredients.en,
         instructions: recipeTranslations['chicken-souffle'].instructions.en,

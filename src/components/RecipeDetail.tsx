@@ -4,6 +4,7 @@ import '../styles/RecipeDetail.css';
 import { recipes } from "../data/recipes.ts";
 import { translations, recipeTranslations } from "../data/translations";
 import { useLanguage } from '../context/LanguageContext';
+import ImageCarousel from './ImageCarousel';
 
 const RecipeDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -30,9 +31,6 @@ const RecipeDetail: React.FC = () => {
       <div className="recipe-header">
         <h1>{translatedTitle}</h1>
         <div className="recipe-header-content">
-          <div className="recipe-image">
-            <img src={recipe.images[0]} alt={translatedTitle} />
-          </div>
           <div className="recipe-info">
             <div className="recipe-description">
               <p>{translatedDescription}</p>
@@ -51,6 +49,9 @@ const RecipeDetail: React.FC = () => {
                 <span className="value">{recipe.servings}</span>
               </div>
             </div>
+          </div>
+          <div className="recipe-image">
+            <ImageCarousel images={recipe.images} alt={translatedTitle} />
           </div>
         </div>
       </div>

@@ -37,11 +37,12 @@
 .recipe-header-content {
   display: flex;
   gap: 2rem;
-  align-items: center;
+  align-items: stretch;
 }
 
 .recipe-image {
   flex: 1;
+  min-width: 0;
 }
 
 .recipe-image img {
@@ -54,22 +55,21 @@
 
 .recipe-info {
   flex: 1;
+  min-width: 0;
   background: #f1f8e9;
   padding: 1.5rem;
   border-radius: 10px;
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
 }
 
 .recipe-info .recipe-description {
-  margin-bottom: 0;
-  text-align: left;
+  text-align: center;
 }
 
 .recipe-info .recipe-description p {
-  margin: 0;
+  margin-bottom: 3rem;
   font-size: 1.1rem;
   line-height: 1.6;
   color: #2d2d2d;
@@ -79,7 +79,8 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 3rem;
+  flex-direction: column;
 }
 
 .meta-item {
