@@ -29,30 +29,32 @@ const RecipeDetail: React.FC = () => {
       
       <div className="recipe-header">
         <h1>{translatedTitle}</h1>
-        <img src={recipe.images[0]} alt={translatedTitle} />
-      </div>
-      
-      <div className="recipe-info">
-        <div className="recipe-meta">
-          <div className="meta-item">
-            <span className="label">{translations['recipe.prepTime'][language]}:</span>
-            <span className="value">{recipe.prepTime}</span>
+        <div className="recipe-header-content">
+          <div className="recipe-image">
+            <img src={recipe.images[0]} alt={translatedTitle} />
           </div>
-          <div className="meta-item">
-            <span className="label">{translations['recipe.cookTime'][language]}:</span>
-            <span className="value">{recipe.cookTime}</span>
-          </div>
-          <div className="meta-item">
-            <span className="label">{translations['recipe.servings'][language]}:</span>
-            <span className="value">{recipe.servings}</span>
+          <div className="recipe-info">
+            <div className="recipe-description">
+              <p>{translatedDescription}</p>
+            </div>
+            <div className="recipe-meta">
+              <div className="meta-item">
+                <span className="label">{translations['recipe.prepTime'][language]}:</span>
+                <span className="value">{recipe.prepTime}</span>
+              </div>
+              <div className="meta-item">
+                <span className="label">{translations['recipe.cookTime'][language]}:</span>
+                <span className="value">{recipe.cookTime}</span>
+              </div>
+              <div className="meta-item">
+                <span className="label">{translations['recipe.servings'][language]}:</span>
+                <span className="value">{recipe.servings}</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
-      <div className="recipe-description">
-        <p>{translatedDescription}</p>
-      </div>
-
+      
       <div className="recipe-content">
         <div className="ingredients">
           <h2>{translations['recipe.ingredients'][language]}</h2>
